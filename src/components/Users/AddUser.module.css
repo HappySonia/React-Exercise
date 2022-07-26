@@ -1,0 +1,27 @@
+.card {
+	margin: 2rem auto;
+	padding: 1rem;
+	width: 90%;
+	max-width: 40rem;
+	display: flex;	
+	justify-content: center;
+	
+}
+
+.form {
+	display:flex;
+	flex-direction: column;
+	width:90%;
+	justify-content: space-around;
+}
+.form > * {
+	margin: 0.2rem 0;
+}
+
+.form input{	
+	border:1px solid #ccc;
+	flex-basis: 1.5rem;
+}
+.form label {
+	font-weight: 700;
+}
